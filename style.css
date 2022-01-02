@@ -1,0 +1,59 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: rgb(204, 19, 90);
+}
+.container{
+    display: flex;
+    max-width: 950px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.player-0, .player-1{
+    background-color: rgb(238, 185, 194);
+    border-radius: 2px;
+    padding: 40px 100px;
+    width: 30%;
+    height: 80%;
+}
+.score{
+    color: rgb(204, 19, 90);
+    font-size: 75px;
+}
+.zero{
+    font-size: 40px;
+}
+.btn{
+    position: absolute;
+    line-height: 50px;
+    top: 20%;
+}
+.dice{
+    margin: 100px  0 30px 0;
+}
+.btn button{ 
+    border-radius: 10px;
+    border-color: white;
+    padding: 5px 10px;
+}
+.current{
+    background-color: rgb(204, 19, 90);
+    color: white;
+    padding: 5px 0;
+    border-radius: 5px;
+    line-height: 20px;
+}
+.game{
+    margin-top: 45px;
+}
+.hidden{
+    display: none;
+}
+.active-player{
+    background-color : rgba(221, 160, 185, 0.808);
+}
+.winner{
+    background-color: rgb(100, 53, 77);
+}
